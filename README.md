@@ -9,6 +9,8 @@ To run the code:
 
 $ mpic++ odd_even.cpp 
 
-$ mpirun -n 4 ./a.out 32
+$ mpirun -n 4 ./a.out 32000000
 
-where 4 are your number of processes and 32 is total size of your array, you want to sort.
+$ mpirun -n 8 ./a.out 128000000
+
+where 4/8 are your number of processes and 32M/128M is total size of your array, you want to sort.

@@ -5,18 +5,6 @@
 #include <time.h>
 using namespace std;
 
-/*ll calculateHash(string str){
-
-  std::transform(str.begin(), str.end(), str.begin(), ::tolower);
-  ll hash = 5381;
-  int l = str.size();
-
-  for(int i = 0 ; i<l ; i++)
-  hash = ((hash << 5) + hash) + (str[i]-'a');
-
-  reverseHash[hash] = str;
-  return hash;
-  }*/
 
 int totalSize,subSize,worldRank;
 double start,end;
